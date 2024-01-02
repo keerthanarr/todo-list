@@ -1,0 +1,8 @@
+<p>Add Task</p>
+<mat-form-field class="example-full-width">
+    <mat-label></mat-label>
+    <textarea [formControl]="taskName" matInput placeholder="Ex. Buy grocery"></textarea>
+</mat-form-field>
+
+<button (click)=addtask() mat-raised-button color="primary">Add</button>
+<button mat-button (click)="onNoClick()">No Thanks</button>
